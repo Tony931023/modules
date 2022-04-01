@@ -2,8 +2,8 @@
 	"name": "Icon provider",
 	"description": "Required by the armory to display icons",
 	"author": {
-		"name": "FusionCMS",
-		"website": "http:\/\/fusion-hub.com"
+		"name": "Tony931023",
+		"website": "http:\/\/github.com\/tony931023"
 	},
 	"enabled": true
 }

@@ -2,6 +2,13 @@
 
 class Icon extends MX_Controller
 {
+	public function __construct()
+	{
+		parent::__construct();
+
+		$this->load->config('icon_config');
+	}
+	
 	/**
 	 * Get an item's icon display name and cache it
 	 * @param Int $realm
@@ -116,7 +123,9 @@ class Icon extends MX_Controller
 	private function getIconName($item)
 	{
 		// Get the item XML data
-		$xml = file_get_contents("https://www.wowhead.com/item=".$item."&xml");
+		$before = $this->config->item('icon_wowhead_xml_before');
+		$after = $this->config->item('icon_wowhead_xml_after');
+		$xml = file_get_contents($before.$item.$after);
 
 		// In case it wasn't found: show ?-icon
 		if(empty($xml))

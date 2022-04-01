@@ -64,11 +64,11 @@ class Item extends MX_Controller
 
 			if($cache2 != false)
 			{
-				return "<div class='item'><a></a><img src='/wow-zamimg/static/images/icons/large/".$cache2.".jpg' /></div>";
+				return "<div class='item'><a></a><img src='http://wow-zamimg.amanthul.nat.cu/static/images/icons/large/".$cache2.".jpg' /></div>";
 			}
 			else
 			{
-				return "<div class='item'><a></a><img src='/wow-zamimg/static/images/icons/large/inv_misc_questionmark.jpg' /></div>";
+				return "<div class='item'><a></a><img src='http://wow-zamimg.amanthul.nat.cu/static/images/icons/large/inv_misc_questionmark.jpg' /></div>";
 			}
 		}
 		else

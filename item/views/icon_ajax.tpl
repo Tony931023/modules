@@ -12,7 +12,7 @@
 	 	{
 	 		$(".get_icon_" + {$id}).each(function()
 	 		{
-	 			$(this).html("<div class='item'><a></a><img src='/wow-zamimg/static/images/icons/large/" + data + ".jpg' /></div>");
+	 			$(this).html("<div class='item'><a></a><img src='http://wow-zamimg.amanthul.nat.cu/static/images/icons/large/" + data + ".jpg' /></div>");
 	 		});
 	 	});
 	});

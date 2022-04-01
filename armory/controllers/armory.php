@@ -217,11 +217,11 @@ class Armory extends MX_Controller
 
 			if($cache2 != false)
 			{
-				return '<img src="/wow-zamimg/static/images/icons/large/'.$cache2.'.jpg" align="absmiddle" width="18px" />';
+				return '<img src="http://wow-zamimg.amanthul.nat.cu/static/images/icons/large/'.$cache2.'.jpg" align="absmiddle" width="18px" />';
 			}
 			else
 			{
-				return '<img src="/wow-zamimg/static/images/icons/large/inv_misc_questionmark.jpg" align="absmiddle" width="18px" />';
+				return '<img src="http://wow-zamimg.amanthul.nat.cu/static/images/icons/large/inv_misc_questionmark.jpg" align="absmiddle" width="18px" />';
 			}
 		}
 		else
